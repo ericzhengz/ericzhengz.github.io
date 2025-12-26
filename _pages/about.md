@@ -59,7 +59,7 @@ Research
   width: 100%;
   height: 100%;
   object-fit: cover; 
-  object-position: center top;
+  object-position: center;
   display: block;
   transition: transform 0.3s ease;
 }

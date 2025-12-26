@@ -14,16 +14,16 @@ Research
 <div class="pub-card">
   <div class="pub-thumb">
     <div class="pub-venue-badge">AAAI</div>
-    <img src="/images/pubs/ekicl_teaser.png" alt="paper teaser">
+    <img src="/images/themes/Pworkflow.png" alt="paper teaser">
   </div>
 
   <div class="pub-body">
     <div class="pub-title">
-      External Knowledge Injection for CLIP-Based Class-Incremental Learning
+      SinBasis Networks: Matrix‑Equivalent Feature Extraction for Wave‑Like Optical Spectrograms
     </div>
 
     <div class="pub-authors">
-      Da-Wei Zhou, Kai-Wen Li, Jingyi Ning, Han-Jia Ye, Lijun Zhang, De-Chuan Zhan
+      Yuzhou Zhu, Zheng Zhang, Ruyi Zhang, Liang Zhou
     </div>
 
     <div class="pub-venue">
@@ -32,8 +32,8 @@ Research
     </div>
 
     <div class="pub-links">
-      <a href="https://arxiv.org/abs/xxxx.xxxxx" target="_blank" rel="noopener">Paper</a>
-      <a href="https://github.com/xxx/yyy" target="_blank" rel="noopener">Code</a>
+      <a href="https://arxiv.org/abs/2505.06275" target="_blank" rel="noopener">Paper</a>
+      %<a href="https://github.com/xxx/yyy" target="_blank" rel="noopener">Code</a>
       <a href="https://your-media-link" target="_blank" rel="noopener">Media</a>
     </div>
   </div>

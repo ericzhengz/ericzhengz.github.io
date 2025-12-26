@@ -12,12 +12,92 @@ Hello! My name is **Zheng Zhang**(张政), an undergraduate student in Foundatio
 Research
 ======
 
+<!-- 直接嵌入样式 (Style Block) -->
+<style>
+/* 容器样式 */
+.paper-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-bottom: 30px;
+  align-items: flex-start;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 20px;
+}
 
+/* 图片区域 */
+.paper-box-image {
+  position: relative;
+  width: 100%;
+  max-width: 260px;
+  flex-shrink: 0;
+}
+.paper-box-image img {
+  width: 100%;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  display: block;
+}
+
+/* 徽章样式 (修正了定位问题) */
+.paper-badge {
+  position: absolute;
+  top: 15px;
+  left: -8px; /* 悬挂在左侧 */
+  background-color: #003399;
+  color: white;
+  padding: 4px 10px;
+  font-weight: bold;
+  font-size: 14px;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+  z-index: 10;
+  border-radius: 0 2px 2px 0;
+}
+
+/* 文字区域 */
+.paper-box-text {
+  flex-grow: 1;
+  min-width: 300px;
+}
+.paper-box-text h4 {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 8px;
+  color: #333;
+}
+.paper-authors {
+  color: #555;
+  margin-bottom: 8px;
+  font-size: 1em;
+}
+.paper-venue {
+  font-style: italic;
+  color: #666;
+  margin-bottom: 12px;
+}
+.venue-bold {
+  color: #428bca;
+  font-weight: bold;
+}
+.paper-links a {
+  text-decoration: none;
+  color: #428bca;
+  margin-right: 12px;
+  font-weight: 500;
+}
+.paper-links a:hover {
+  text-decoration: underline;
+}
+</style>
+
+<!-- 内容部分 -->
 <div class="paper-box">
   
   <!-- 左侧图 + 徽章 -->
   <div class="paper-box-image">
     <div class="paper-badge">AAAI</div>
+    <!-- 请确认图片路径正确，如果不显示请检查文件名大小写 -->
     <img src="/images/themes/Pworkflow.png" alt="Paper Thumbnail">
   </div>
 

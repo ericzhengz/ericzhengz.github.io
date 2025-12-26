@@ -17,19 +17,20 @@ Research
 .paper-box {
   display: flex;
   flex-direction: row;
-  gap: 25px;
-  margin-bottom: 35px;
-  padding-bottom: 25px;
-  border-bottom: 1px solid #e0e0e0;
-  align-items: center; /* 垂直居中 */
+  gap: 30px; /* 间距加大到 30px，增加呼吸感 */
+  margin-bottom: 40px; /* 每一条之间的距离拉大 */
+  align-items: flex-start; /* 顶部对齐，这样文字多了也不会拉伸图片 */
+  border: none; /* 去掉底部分割线，参考图是没线的，更干净 */
 }
 
 /* === 手机端适配 === */
 @media (max-width: 768px) {
   .paper-box {
     flex-direction: column;
-    align-items: flex-start;
     gap: 15px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #eee; /* 手机上加个线区分一下 */
+    padding-bottom: 20px;
   }
   .paper-box-image {
     width: 100% !important;
@@ -45,19 +46,20 @@ Research
 
 /* === 图片卡片区域 === */
 .paper-box-image {
-  flex: 0 0 220px; /* 固定宽度 */
+  flex: 0 0 220px; 
   width: 220px;
-  height: 140px;   /* 固定高度 */
+  height: 130px;   /* 高度稍微改扁一点，更符合视觉比例 */
   position: relative;
   overflow: hidden;
-  border-radius: 10px; /* 圆角 */
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border-radius: 8px; /* 圆角稍微收一点，太圆了像手机APP图标 */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.12); /* 阴影 */
+  margin-top: 5px; /* 让图片稍微往下一点，对齐文字的第一行视觉重心 */
 }
 
 .paper-box-image img {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* 智能裁剪 */
+  object-fit: cover; 
   object-position: center top;
   display: block;
   transition: transform 0.3s ease;
@@ -67,95 +69,90 @@ Research
   transform: scale(1.05);
 }
 
-/* === 徽章样式 (字体修正) === */
+/* === 徽章样式 (Times New Roman) === */
 .paper-badge {
   position: absolute;
   top: 10px;
-  left: 10px;
-  
-  /* 颜色 & 背景 */
-  background-color: #003399; /* 经典深蓝 */
+  left: 0px; /* 贴左边，或者 left: 10px 悬浮 */
+  background-color: #003399; 
   color: white;
-  
-  /* 字体设置：Times New Roman */
   font-family: "Times New Roman", Times, serif; 
   font-weight: bold;
-  font-size: 14px; /* 稍微大一点点，更像 Logo */
-  letter-spacing: 0.5px; /* 字母稍微拉开一点点，更有质感 */
-  
-  /* 形状 */
-  padding: 4px 8px;
-  border-radius: 4px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.25);
+  font-size: 13px; /* 字号微调 */
+  letter-spacing: 0.5px;
+  padding: 3px 8px;
+  border-radius: 0 3px 3px 0; /* 变成左侧贴边的标签样式，参考图有时候是贴边的 */
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
   z-index: 10;
   pointer-events: none;
-  line-height: 1; /* 防止垂直方向偏移 */
 }
 
-/* === 文字内容区域 === */
+/* === 文字内容区域 (核心修改部分) === */
 .paper-box-text {
   flex: 1;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
+/* 1. 标题：不再是链接，颜色深灰，字号适中 */
 .paper-title {
-  font-size: 1.25em;
-  font-weight: bold;
-  margin-bottom: 8px;
-  line-height: 1.25;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; /* 标题保持无衬线体更现代 */
-}
-.paper-title a {
-  color: #333;
-  text-decoration: none;
-}
-.paper-title a:hover {
-  color: #003399;
+  font-size: 15px; /* 从很大的20+px降到18px，精致感来源 */
+  font-weight: 700; /* 粗体 */
+  color: #444;      /* 不是纯黑，是深灰 */
+  line-height: 1.4;
+  margin-bottom: 8px; /* 标题下方留白 */
 }
 
+/* 2. 作者：字号更小，颜色稍微浅一点 */
 .paper-authors {
-  color: #555;
-  font-size: 0.95em;
+  font-size: 12px;  /* 正文字号 */
+  color: #555;      /* 中灰 */
+  line-height: 1.5;
   margin-bottom: 6px;
 }
 
+/* 3. 会议：斜体，字号最小 */
 .paper-venue {
+  font-size: 12px; 
   font-style: italic;
   color: #666;
-  font-size: 0.9em;
   margin-bottom: 10px;
 }
 
 .venue-bold {
-  color: #428bca;
-  font-weight: bold;
+  color: #428bca; /* 蓝色高亮 */
+  font-weight: 700;
+  font-style: normal; /* 年份通常不需要斜体，突出显示 */
 }
 
+/* 4. 底部链接 */
+.paper-links {
+  font-size: 12px;
+}
 .paper-links a {
   display: inline-block;
   text-decoration: none;
-  color: #428bca;
-  margin-right: 15px;
-  font-weight: 600;
-  font-size: 0.9em;
+  color: #428bca; /* 链接蓝 */
+  margin-right: 12px;
+  font-weight: 500;
 }
 .paper-links a:hover {
   text-decoration: underline;
+  color: #2a6496;
 }
 </style>
 
-<!-- 下面是内容，无需改动 -->
+<!-- 内容展示 Block -->
 <div class="paper-box">
   
   <div class="paper-box-image">
-    <!-- 徽章 -->
-    <div class="paper-badge">AAAI 2026</div>
-    <!-- 图片 -->
+    <div class="paper-badge">AAAI</div>
     <img src="/images/themes/Pworkflow.png" alt="Paper Thumbnail">
   </div>
 
   <div class="paper-box-text">
+    <!-- 标题：现在是纯文本，移除了 <a href...> -->
     <div class="paper-title">
-      <a href="https://arxiv.org/abs/2505.06275">SinBasis Networks: Matrix‑Equivalent Feature Extraction for Wave‑Like Optical Spectrograms</a>
+      SinBasis Networks: Matrix‑Equivalent Feature Extraction for Wave‑Like Optical Spectrograms
     </div>
     
     <div class="paper-authors">
@@ -163,7 +160,7 @@ Research
     </div>
     
     <div class="paper-venue">
-      AAAI Conference on Artificial Intelligence
+      AAAI Conference on Artificial Intelligence. <span class="venue-bold">AAAI 2026</span>
     </div>
     
     <div class="paper-links">

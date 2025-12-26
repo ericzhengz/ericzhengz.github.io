@@ -12,114 +12,167 @@ Hello! My name is **Zheng Zhang**(张政), an undergraduate student in Foundatio
 Research
 ======
 
-<!-- 直接嵌入样式 (Style Block) -->
 <style>
-/* 容器样式 */
+/* === 全局容器 === */
 .paper-box {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: row;
   gap: 25px;
-  margin-bottom: 30px;
-  align-items: flex-start;
+  margin-bottom: 35px;
+  padding-bottom: 25px;
   border-bottom: 1px solid #e0e0e0;
-  padding-bottom: 20px;
+  align-items: center; /* 垂直居中 */
 }
 
-/* 图片区域 */
-.paper-box-image {
-  position: relative;
-  width: 100%;
-  max-width: 260px;
-  flex-shrink: 0;
+/* === 手机端适配 === */
+@media (max-width: 768px) {
+  .paper-box {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+  .paper-box-image {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    flex: none !important;
+  }
+  .paper-box-image img {
+    height: auto !important; 
+    object-fit: unset !important;
+  }
 }
+
+/* === 图片卡片区域 === */
+.paper-box-image {
+  flex: 0 0 220px; /* 固定宽度 */
+  width: 220px;
+  height: 140px;   /* 固定高度 */
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px; /* 圆角 */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
 .paper-box-image img {
   width: 100%;
-  border-radius: 4px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  height: 100%;
+  object-fit: cover; /* 智能裁剪 */
+  object-position: center top;
   display: block;
+  transition: transform 0.3s ease;
 }
 
-/* 徽章样式 (修正了定位问题) */
+.paper-box-image:hover img {
+  transform: scale(1.05);
+}
+
+/* === 徽章样式 (字体修正) === */
 .paper-badge {
   position: absolute;
-  top: 15px;
-  left: -8px; /* 悬挂在左侧 */
-  background-color: #003399;
+  top: 10px;
+  left: 10px;
+  
+  /* 颜色 & 背景 */
+  background-color: #003399; /* 经典深蓝 */
   color: white;
-  padding: 4px 10px;
+  
+  /* 字体设置：Times New Roman */
+  font-family: "Times New Roman", Times, serif; 
   font-weight: bold;
-  font-size: 14px;
-  box-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+  font-size: 14px; /* 稍微大一点点，更像 Logo */
+  letter-spacing: 0.5px; /* 字母稍微拉开一点点，更有质感 */
+  
+  /* 形状 */
+  padding: 4px 8px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.25);
   z-index: 10;
-  border-radius: 0 2px 2px 0;
+  pointer-events: none;
+  line-height: 1; /* 防止垂直方向偏移 */
 }
 
-/* 文字区域 */
+/* === 文字内容区域 === */
 .paper-box-text {
-  flex-grow: 1;
-  min-width: 300px;
+  flex: 1;
 }
-.paper-box-text h4 {
-  font-size: 1.2em;
+
+.paper-title {
+  font-size: 1.25em;
   font-weight: bold;
-  margin-top: 0;
   margin-bottom: 8px;
-  color: #333;
+  line-height: 1.25;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; /* 标题保持无衬线体更现代 */
 }
+.paper-title a {
+  color: #333;
+  text-decoration: none;
+}
+.paper-title a:hover {
+  color: #003399;
+}
+
 .paper-authors {
   color: #555;
-  margin-bottom: 8px;
-  font-size: 1em;
+  font-size: 0.95em;
+  margin-bottom: 6px;
 }
+
 .paper-venue {
   font-style: italic;
   color: #666;
-  margin-bottom: 12px;
+  font-size: 0.9em;
+  margin-bottom: 10px;
 }
+
 .venue-bold {
   color: #428bca;
   font-weight: bold;
 }
+
 .paper-links a {
+  display: inline-block;
   text-decoration: none;
   color: #428bca;
-  margin-right: 12px;
-  font-weight: 500;
+  margin-right: 15px;
+  font-weight: 600;
+  font-size: 0.9em;
 }
 .paper-links a:hover {
   text-decoration: underline;
 }
 </style>
 
-<!-- 内容部分 -->
+<!-- 下面是内容，无需改动 -->
 <div class="paper-box">
   
-  <!-- 左侧图 + 徽章 -->
   <div class="paper-box-image">
-    <div class="paper-badge">AAAI</div>
-    <!-- 请确认图片路径正确，如果不显示请检查文件名大小写 -->
+    <!-- 徽章 -->
+    <div class="paper-badge">AAAI 2026</div>
+    <!-- 图片 -->
     <img src="/images/themes/Pworkflow.png" alt="Paper Thumbnail">
   </div>
 
-  <!-- 右侧文字 -->
   <div class="paper-box-text">
-    <h4>SinBasis Networks: Matrix‑Equivalent Feature Extraction for Wave‑Like Optical Spectrograms</h4>
+    <div class="paper-title">
+      <a href="https://arxiv.org/abs/2505.06275">SinBasis Networks: Matrix‑Equivalent Feature Extraction for Wave‑Like Optical Spectrograms</a>
+    </div>
     
     <div class="paper-authors">
       Yuzhou Zhu, <strong>Zheng Zhang</strong>, Ruyi Zhang, Liang Zhou
     </div>
     
     <div class="paper-venue">
-      AAAI Conference on Artificial Intelligence. <span class="venue-bold">AAAI 2026</span>
+      AAAI Conference on Artificial Intelligence
     </div>
     
     <div class="paper-links">
       <a href="https://arxiv.org/abs/2505.06275">[Paper]</a>
+      <!-- <a href="#">[Code]</a> -->
     </div>
   </div>
   
 </div>
-
 
 
 

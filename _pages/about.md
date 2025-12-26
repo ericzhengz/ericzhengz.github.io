@@ -17,8 +17,8 @@ Research
 .paper-box {
   display: flex;
   flex-direction: row;
-  gap: 30px; /* 间距加大到 30px，增加呼吸感 */
-  margin-bottom: 40px; /* 每一条之间的距离拉大 */
+  gap: 25px; /* 间距加大到 30px，增加呼吸感 */
+  margin-bottom: 35px; /* 每一条之间的距离拉大 */
   align-items: flex-start; /* 顶部对齐，这样文字多了也不会拉伸图片 */
   border: none; /* 去掉底部分割线，参考图是没线的，更干净 */
 }
@@ -73,7 +73,7 @@ Research
 .paper-badge {
   position: absolute;
   top: 10px;
-  left: 0px; /* 贴左边，或者 left: 10px 悬浮 */
+  left: -2px; /* 贴左边，或者 left: 10px 悬浮 */
   background-color: #003399; 
   color: white;
   font-family: "Times New Roman", Times, serif; 
@@ -90,13 +90,13 @@ Research
 /* === 文字内容区域 (核心修改部分) === */
 .paper-box-text {
   flex: 1;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: "Times New Roman", serif; 
 }
 
 /* 1. 标题：不再是链接，颜色深灰，字号适中 */
 .paper-title {
-  font-size: 16px; /* 从很大的20+px降到18px，精致感来源 */
-  font-weight: 700; /* 粗体 */
+  font-size: 17px; /* 从很大的20+px降到18px，精致感来源 */
+  font-weight: bold; /* 粗体 */
   color: #444;      /* 不是纯黑，是深灰 */
   line-height: 1.4;
   margin-bottom: 8px; /* 标题下方留白 */
@@ -104,7 +104,7 @@ Research
 
 /* 2. 作者：字号更小，颜色稍微浅一点 */
 .paper-authors {
-  font-size: 14px;  /* 正文字号 */
+  font-size: 14px !important;  /* 正文字号 */
   color: #555;      /* 中灰 */
   line-height: 1.5;
   margin-bottom: 6px;
@@ -120,20 +120,21 @@ Research
 
 .venue-bold {
   color: #428bca; /* 蓝色高亮 */
-  font-weight: 700;
-  font-style: italic;; /* 年份通常不需要斜体，突出显示 */
+  font-weight: bold;
+  font-style: italic; /* 年份通常不需要斜体，突出显示 */
 }
 
 /* 4. 底部链接 */
 .paper-links {
   font-size: 12px;
+  font-family: "Times New Roman", serif;
 }
 .paper-links a {
   display: inline-block;
   text-decoration: none;
   color: #428bca; /* 链接蓝 */
   margin-right: 12px;
-  font-weight: 500;
+  font-weight: bold;
 }
 .paper-links a:hover {
   text-decoration: underline;

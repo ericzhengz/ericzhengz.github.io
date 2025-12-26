@@ -18,7 +18,7 @@ Research
   display: flex;
   flex-direction: row;
   gap: 25px; /* 间距加大到 30px，增加呼吸感 */
-  margin-bottom: 25px; /* 每一条之间的距离拉大 */
+  margin-bottom: 20px; /* 每一条之间的距离拉大 */
   align-items: flex-start; /* 顶部对齐，这样文字多了也不会拉伸图片 */
   border: none; /* 去掉底部分割线，参考图是没线的，更干净 */
 }
@@ -28,7 +28,7 @@ Research
   .paper-box {
     flex-direction: column;
     gap: 15px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     padding-bottom: 20px;
   }
   .paper-box-image {

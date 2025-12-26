@@ -11,33 +11,39 @@ Hello! My name is **Zheng Zhang**(张政), an undergraduate student in Foundatio
 
 Research
 ======
-<div class="pub-card">
-  <div class="pub-thumb">
-    <div class="pub-venue-badge">AAAI</div>
-    <img src="/images/themes/Pworkflow.png" alt="paper teaser">
+
+
+<div class="paper-box">
+  
+  <!-- 左侧图 + 徽章 -->
+  <div class="paper-box-image">
+    <div class="paper-badge">AAAI</div>
+    <img src="/images/themes/Pworkflow.png" alt="Paper Thumbnail">
   </div>
 
-  <div class="pub-body">
-    <div class="pub-title">
-      SinBasis Networks: Matrix‑Equivalent Feature Extraction for Wave‑Like Optical Spectrograms
+  <!-- 右侧文字 -->
+  <div class="paper-box-text">
+    <h4>SinBasis Networks: Matrix‑Equivalent Feature Extraction for Wave‑Like Optical Spectrograms</h4>
+    
+    <div class="paper-authors">
+      Yuzhou Zhu, <strong>Zheng Zhang</strong>, Ruyi Zhang, Liang Zhou
     </div>
-
-    <div class="pub-authors">
-      Yuzhou Zhu, Zheng Zhang, Ruyi Zhang, Liang Zhou
+    
+    <div class="paper-venue">
+      AAAI Conference on Artificial Intelligence. <span class="venue-bold">AAAI 2026</span>
     </div>
-
-    <div class="pub-venue">
-      <em>International Conference on Computer Vision.</em>
-      <span class="pub-venue-link"><a href="https://iccv2025.thecvf.com/" target="_blank" rel="noopener">ICCV 2025</a></span>
-    </div>
-
-    <div class="pub-links">
-      <a href="https://arxiv.org/abs/2505.06275" target="_blank" rel="noopener">Paper</a>
-      %<a href="https://github.com/xxx/yyy" target="_blank" rel="noopener">Code</a>
-      <a href="https://your-media-link" target="_blank" rel="noopener">Media</a>
+    
+    <div class="paper-links">
+      <a href="https://arxiv.org/abs/2505.06275">[Paper]</a>
     </div>
   </div>
+  
 </div>
+
+
+
+
+
 
 Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
 

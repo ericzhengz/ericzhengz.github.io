@@ -29,7 +29,6 @@ Research
     flex-direction: column;
     gap: 15px;
     margin-bottom: 30px;
-    border-bottom: 1px solid #eee; /* 手机上加个线区分一下 */
     padding-bottom: 20px;
   }
   .paper-box-image {
@@ -73,7 +72,7 @@ Research
 .paper-badge {
   position: absolute;
   top: 10px;
-  left: -2px; /* 贴左边，或者 left: 10px 悬浮 */
+  left: 3px; /* 贴左边，或者 left: 10px 悬浮 */
   background-color: #003399; 
   color: white;
   font-family: "Times New Roman", Times, serif; 
@@ -90,21 +89,21 @@ Research
 /* === 文字内容区域 (核心修改部分) === */
 .paper-box-text {
   flex: 1;
-  font-family: "Times New Roman", serif; 
+  font-family: Georgia, "Bitstream Charter", "Times New Roman", serif; 
 }
 
 /* 1. 标题：不再是链接，颜色深灰，字号适中 */
 .paper-title {
-  font-size: 17px; /* 从很大的20+px降到18px，精致感来源 */
+  font-size: 18px; /* 从很大的20+px降到18px，精致感来源 */
   font-weight: bold; /* 粗体 */
-  color: #444;      /* 不是纯黑，是深灰 */
+  color: #333;      /* 不是纯黑，是深灰 */
   line-height: 1.4;
   margin-bottom: 8px; /* 标题下方留白 */
 }
 
 /* 2. 作者：字号更小，颜色稍微浅一点 */
 .paper-authors {
-  font-size: 14px !important;  /* 正文字号 */
+  font-size: 16px !important;  /* 正文字号 */
   color: #555;      /* 中灰 */
   line-height: 1.5;
   margin-bottom: 6px;
@@ -112,7 +111,7 @@ Research
 
 /* 3. 会议：斜体，字号最小 */
 .paper-venue {
-  font-size: 14px; 
+  font-size: 16px; 
   font-style: italic;
   color: #666;
   margin-bottom: 10px;
@@ -127,7 +126,7 @@ Research
 /* 4. 底部链接 */
 .paper-links {
   font-size: 12px;
-  font-family: "Times New Roman", serif;
+  font-family: Georgia, "Bitstream Charter", "Times New Roman", serif;
 }
 .paper-links a {
   display: inline-block;

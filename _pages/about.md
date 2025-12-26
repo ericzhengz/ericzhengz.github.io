@@ -18,7 +18,7 @@ Research
   display: flex;
   flex-direction: row;
   gap: 25px; /* 间距加大到 30px，增加呼吸感 */
-  margin-bottom: 35px; /* 每一条之间的距离拉大 */
+  margin-bottom: 25px; /* 每一条之间的距离拉大 */
   align-items: flex-start; /* 顶部对齐，这样文字多了也不会拉伸图片 */
   border: none; /* 去掉底部分割线，参考图是没线的，更干净 */
 }
@@ -51,7 +51,12 @@ Research
   position: relative;
   overflow: hidden;
   border-radius: 8px; /* 圆角稍微收一点，太圆了像手机APP图标 */
-  box-shadow: 0 4px 10px rgba(0,0,0,0.12); /* 阴影 */
+  box-shadow: 
+    /* 第一层：深色、紧贴、用于勾勒轮廓 (Key Shadow) */
+    0 2px 5px rgba(0, 0, 0, 0.05),
+    /* 第二层：浅色、扩散大、用于制造悬浮氛围 (Ambient Shadow) */
+    0 10px 20px rgba(0, 0, 0, 0.1); 
+  transition: all 0.3s ease
   margin-top: 5px; /* 让图片稍微往下一点，对齐文字的第一行视觉重心 */
 }
 
@@ -66,6 +71,13 @@ Research
 
 .paper-box-image:hover img {
   transform: scale(1.05);
+}
+
+.paper-box-image:hover {
+  transform: translateY(-2px); /* 物理上浮 2px */
+  box-shadow: 
+    0 4px 8px rgba(0, 0, 0, 0.05),
+    0 15px 30px rgba(0, 0, 0, 0.15);
 }
 
 /* === 徽章样式 (Times New Roman) === */

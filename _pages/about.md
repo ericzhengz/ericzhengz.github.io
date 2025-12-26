@@ -95,7 +95,7 @@ Research
 
 /* 1. 标题：不再是链接，颜色深灰，字号适中 */
 .paper-title {
-  font-size: 15px; /* 从很大的20+px降到18px，精致感来源 */
+  font-size: 16px; /* 从很大的20+px降到18px，精致感来源 */
   font-weight: 700; /* 粗体 */
   color: #444;      /* 不是纯黑，是深灰 */
   line-height: 1.4;
@@ -104,7 +104,7 @@ Research
 
 /* 2. 作者：字号更小，颜色稍微浅一点 */
 .paper-authors {
-  font-size: 12px;  /* 正文字号 */
+  font-size: 14px;  /* 正文字号 */
   color: #555;      /* 中灰 */
   line-height: 1.5;
   margin-bottom: 6px;
@@ -112,7 +112,7 @@ Research
 
 /* 3. 会议：斜体，字号最小 */
 .paper-venue {
-  font-size: 12px; 
+  font-size: 14px; 
   font-style: italic;
   color: #666;
   margin-bottom: 10px;
@@ -121,7 +121,7 @@ Research
 .venue-bold {
   color: #428bca; /* 蓝色高亮 */
   font-weight: 700;
-  font-style: normal; /* 年份通常不需要斜体，突出显示 */
+  font-style: italic;; /* 年份通常不需要斜体，突出显示 */
 }
 
 /* 4. 底部链接 */

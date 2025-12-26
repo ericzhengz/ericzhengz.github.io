@@ -89,14 +89,14 @@ Research
 /* === 文字内容区域 (核心修改部分) === */
 .paper-box-text {
   flex: 1;
-  font-family: Georgia, "Bitstream Charter", "Times New Roman", serif; 
+  font-family: "Times New Roman", serif; 
 }
 
 /* 1. 标题：不再是链接，颜色深灰，字号适中 */
 .paper-title {
   font-size: 18px; /* 从很大的20+px降到18px，精致感来源 */
   font-weight: bold; /* 粗体 */
-  color: #333;      /* 不是纯黑，是深灰 */
+  color: #444;      /* 不是纯黑，是深灰 */
   line-height: 1.4;
   margin-bottom: 8px; /* 标题下方留白 */
 }

@@ -165,7 +165,6 @@ Research
     
     <div class="paper-links">
       <a href="https://arxiv.org/abs/2505.06275">[Paper]</a>
-      <!-- <a href="#">[Code]</a> -->
     </div>
   </div>
   
@@ -175,7 +174,7 @@ Research
 <div class="paper-box">
   
   <div class="paper-box-image">
-    <img src="/images/themes/Pworkflow.png" alt="Paper Thumbnail">
+    <img src="/images/themes/STAGE.png" alt="Paper Thumbnail">
   </div>
 
   <div class="paper-box-text">
@@ -189,7 +188,7 @@ Research
     </div>
     
     <div class="paper-venue">
-      CVPR under review. <span class="venue-bold">
+      CVPR under review. 
     </div>
     
     <div class="paper-links">
@@ -205,7 +204,7 @@ Research
 <div class="paper-box">
   
   <div class="paper-box-image">
-    <img src="/images/themes/Pworkflow.png" alt="Paper Thumbnail">
+    <img src="/images/themes/simpleBTSP.png" alt="Paper Thumbnail">
   </div>
 
   <div class="paper-box-text">
@@ -219,7 +218,7 @@ Research
     </div>
     
     <div class="paper-venue">
-      target submission ICML. <span class="venue-bold">
+      target submission ICML. 
     </div>
     
   </div>

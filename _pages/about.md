@@ -45,9 +45,9 @@ Research
 
 /* === 图片卡片区域 === */
 .paper-box-image {
-  flex: 0 0 160px; 
-  width: 160px;
-  height: 100px;   /* 高度稍微改扁一点，更符合视觉比例 */
+  flex: 0 0 192px; 
+  width: 192px;
+  height: 120px;   /* 高度稍微改扁一点，更符合视觉比例 */
   position: relative;
   overflow: visible !important;
   border-radius: 8px; /* 圆角稍微收一点，太圆了像手机APP图标 */
@@ -107,7 +107,7 @@ Research
 
 /* 1. 标题：不再是链接，颜色深灰，字号适中 */
 .paper-title {
-  font-size: 14px !important; /* 从很大的20+px降到18px，精致感来源 */
+  font-size: 16px !important; /* 从很大的20+px降到18px，精致感来源 */
   font-weight: bold; /* 粗体 */
   color: #444;      /* 不是纯黑，是深灰 */
   line-height: 1.4;
@@ -116,7 +116,7 @@ Research
 
 /* 2. 作者：字号更小，颜色稍微浅一点 */
 .paper-authors {
-  font-size: 12px !important;  /* 正文字号 */
+  font-size: 14px !important;  /* 正文字号 */
   color: #555;      /* 中灰 */
   line-height: 1.5;
   margin-bottom: 6px;
@@ -124,7 +124,7 @@ Research
 
 /* 3. 会议：斜体，字号最小 */
 .paper-venue {
-  font-size: 12px !important; 
+  font-size: 14px !important; 
   font-style: italic;
   color: #666;
   margin-bottom: 10px;
@@ -138,7 +138,7 @@ Research
 
 /* 4. 底部链接 */
 .paper-links {
-  font-size: 10px;
+  font-size: 14px !important;
   font-family: Georgia, "Bitstream Charter", "Times New Roman", serif;
 }
 .paper-links a {

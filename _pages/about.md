@@ -313,7 +313,7 @@ Project
     <div class="project-awards">
       <ul>
         <li><strong>Bronze Award</strong>, China International College Students' Innovation Competition, 2025</li>
-        <li><strong>National Third Prize</strong>, "Challenge Cup" Liaoning College Students' Entrepreneurship Competition, 2024</li>
+        <li><strong>Provincial First Prize</strong>, "Challenge Cup" Liaoning College Students' Entrepreneurship Competition, 2024</li>
         <li><strong>First Prize</strong>, DUT "Pandeng Cup" Innovation and Entrepreneurship Competition, 2024</li>
       </ul>
     </div>

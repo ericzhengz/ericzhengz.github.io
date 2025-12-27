@@ -152,7 +152,31 @@ Research
   text-decoration: underline;
   color: #2a6496;
 }
+
+/* === 新增：专门用于项目奖项列表的样式 === */
+.project-awards {
+  font-family: "Times New Roman", serif; /* 保持学术字体 */
+  font-size: 14px;      /* 字号适中 */
+  color: #444;          /* 深灰色，比纯黑柔和 */
+  line-height: 1.6;     /* 行高拉大一点，防止多行拥挤 */
+  margin-top: 8px;      /* 距离上面的 Leader 拉开一点距离 */
+  margin-bottom: 10px;
+}
+
+/* 列表容器样式：去掉默认的大缩进 */
+.project-awards ul {
+  margin: 0;
+  padding-left: 18px; /* 稍微缩进一点，让圆点对齐文字 */
+  list-style-type: disc; /* 实心圆点 */
+}
+
+/* 单个奖项样式 */
+.project-awards li {
+  margin-bottom: 4px; /* 每个奖项之间留点空隙 */
+}
+  
 </style>
+
 
 <!-- 内容展示 Block -->
 <div class="paper-box">
@@ -238,6 +262,36 @@ Research
   
 </div>
 
+Project
+======
+<div class="paper-box">
+  
+  <div class="paper-box-image">
+    <img src="/images/themes/linggong.png" alt="Paper Thumbnail">
+  </div>
+
+  <div class="paper-box-text">
+    <!-- 标题：现在是纯文本，移除了 <a href...> -->
+    <div class="paper-title">
+      Linggong IntelliVision: Pioneer in Multifunctional AI Imaging Platform
+    </div>
+    
+    <div class="paper-authors">
+      <strong>Leader</strong>
+    </div>
+    
+    <div class="project-awards">
+      <ul>
+        <li><strong>National Second Prize</strong>, The 18th International Contest of innovAtioN (iCAN), 2024</li>
+        <li><strong>National Third Prize</strong>, Global Campus Artificial Intelligence Algorithm Elite Competition, 2025</li>
+        <li><strong>National Third Prize</strong>, China Collegiate Computing Contest (C4) – AIGC Innovation Contest, 2025</li>
+        <li><strong>Gold Award</strong>, China International College Students' Innovation Competition (DUT Campus Selection), 2025</li>
+      </ul>
+    </div>
+    
+  </div>
+  
+</div>
 
 Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
 

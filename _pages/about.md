@@ -84,7 +84,7 @@ Research
 .paper-badge {
   position: absolute;
   top: 10px;
-  left: 3px; /* 贴左边，或者 left: 10px 悬浮 */
+  left: -5px; /* 贴左边，或者 left: 10px 悬浮 */
   background-color: #003399; 
   color: white;
   font-family: "Times New Roman", Times, serif; 

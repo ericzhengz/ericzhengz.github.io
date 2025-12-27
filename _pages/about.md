@@ -343,8 +343,7 @@ Project
     <div class="project-awards">
       <ul>
         <li><strong>National First Prize</strong>, Intelligent Chemistry Experiment Challenge, 2024</li>
-        <li><strong>First Prize</strong>, DUT Intelligent Chemistry Experiment Challenge, 2024</li>
-        <li><strong>First Prize (Ranked 1st)</strong>, DUT "Pandeng Cup" Innovation and Entrepreneurship Competition, 2024</li>
+        <li><strong>First Prize (Ranked 1st)</strong>, DUT Intelligent Chemistry Experiment Challenge, 2024</li>
       </ul>
     </div>
     

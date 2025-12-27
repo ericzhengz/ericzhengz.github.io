@@ -156,7 +156,7 @@ Research
 /* === 新增：专门用于项目奖项列表的样式 === */
 .project-awards {
   font-family: "Times New Roman", serif; /* 保持学术字体 */
-  font-size: 12px;      /* 字号适中 */
+  font-size: 13px;      /* 字号适中 */
   color: #444;          /* 深灰色，比纯黑柔和 */
   line-height: 1.3;     /* 行高拉大一点，防止多行拥挤 */
   margin-top: 8px;      /* 距离上面的 Leader 拉开一点距离 */
@@ -286,6 +286,65 @@ Project
         <li><strong>National Third Prize</strong>, Global Campus Artificial Intelligence Algorithm Elite Competition, 2025</li>
         <li><strong>National Third Prize</strong>, China Collegiate Computing Contest (C4) – AIGC Innovation Contest, 2025</li>
         <li><strong>Gold Award</strong>, China International College Students' Innovation Competition (DUT Campus Selection), 2025</li>
+      </ul>
+    </div>
+    
+  </div>
+  
+</div>
+
+
+<div class="paper-box">
+  
+  <div class="paper-box-image">
+    <img src="/images/themes/echoforest.png" alt="Paper Thumbnail">
+  </div>
+
+  <div class="paper-box-text">
+    <!-- 标题：现在是纯文本，移除了 <a href...> -->
+    <div class="paper-title">
+      EchoForest——World's First Pixelated Spatial Audio Sound System
+    </div>
+    
+    <div class="paper-authors">
+      Third Member, Algorithm & Software Lead
+    </div>
+    
+    <div class="project-awards">
+      <ul>
+        <li><strong>Bronze Award</strong>, China International College Students' Innovation Competition, 2025</li>
+        <li><strong>National Third Prize</strong>, "Challenge Cup" Liaoning College Students' Entrepreneurship Competition, 2024</li>
+        <li><strong>First Prize</strong>, DUT "Pandeng Cup" Innovation and Entrepreneurship Competition, 2024</li>
+      </ul>
+    </div>
+    
+  </div>
+  
+</div>
+
+
+
+<div class="paper-box">
+  
+  <div class="paper-box-image">
+    <img src="/images/themes/chem.png" alt="Paper Thumbnail">
+  </div>
+
+  <div class="paper-box-text">
+    <!-- 标题：现在是纯文本，移除了 <a href...> -->
+    <div class="paper-title">
+      Intelligent Chemical Titration Analysis Device Based on Pruned YOLOv8
+    </div>
+    
+    <div class="paper-authors">
+      <strong>Leader</strong>
+    </div>
+    
+    <div class="project-awards">
+      <ul>
+        <li><strong>National First Prize</strong>, Intelligent Chemistry Experiment Challenge, 2024</li>
+        <li><strong>First Prize</strong>, DUT Intelligent Chemistry Experiment Challenge, 2024</li>
+        <li><strong>First Prize (Ranked 1st)</strong>, DUT "Pandeng Cup" Innovation and Entrepreneurship Competition, 2024</li>
       </ul>
     </div>
     

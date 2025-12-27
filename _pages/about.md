@@ -17,8 +17,8 @@ Research
 .paper-box {
   display: flex;
   flex-direction: row;
-  gap: 25px; /* 间距加大到 30px，增加呼吸感 */
-  margin-bottom: 20px; /* 每一条之间的距离拉大 */
+  gap: 20px; /* 间距加大到 30px，增加呼吸感 */
+  margin-bottom: 17px; /* 每一条之间的距离拉大 */
   align-items: flex-start; /* 顶部对齐，这样文字多了也不会拉伸图片 */
   border: none; /* 去掉底部分割线，参考图是没线的，更干净 */
 }
@@ -45,17 +45,17 @@ Research
 
 /* === 图片卡片区域 === */
 .paper-box-image {
-  flex: 0 0 220px; 
-  width: 220px;
-  height: 130px;   /* 高度稍微改扁一点，更符合视觉比例 */
+  flex: 0 0 160px; 
+  width: 160px;
+  height: 100px;   /* 高度稍微改扁一点，更符合视觉比例 */
   position: relative;
-  overflow: hidden;
+  overflow: visible !important;
   border-radius: 8px; /* 圆角稍微收一点，太圆了像手机APP图标 */
   box-shadow: 
     /* 第一层：深色、紧贴、用于勾勒轮廓 (Key Shadow) */
-    0 2px 5px rgba(0, 0, 0, 0.15),
+    0 2px 5px rgba(0, 0, 0, 0.25),
     /* 第二层：浅色、扩散大、用于制造悬浮氛围 (Ambient Shadow) */
-    0 10px 20px rgba(0, 0, 0, 0.25); 
+    0 10px 20px rgba(0, 0, 0, 0.35); 
   transition: all 0.3s ease
   margin-top: 5px; /* 让图片稍微往下一点，对齐文字的第一行视觉重心 */
 }
@@ -66,6 +66,7 @@ Research
   object-fit: cover; 
   object-position: center;
   display: block;
+  border-radius: 8px;
   transition: transform 0.3s ease;
 }
 
@@ -83,17 +84,17 @@ Research
 /* === 徽章样式 (Times New Roman) === */
 .paper-badge {
   position: absolute;
-  top: 10px;
+  top: 8px;
   left: -5px; /* 贴左边，或者 left: 10px 悬浮 */
   background-color: #003399; 
   color: white;
   font-family: "Times New Roman", Times, serif; 
   font-weight: bold;
-  font-size: 13px; /* 字号微调 */
+  font-size: 12px; /* 字号微调 */
   letter-spacing: 0.5px;
-  padding: 3px 8px;
-  border-radius: 0 3px 3px 0; /* 变成左侧贴边的标签样式，参考图有时候是贴边的 */
-  box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+  padding: 3px 10px;
+  border-radius: 4px; 
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.3); 
   z-index: 10;
   pointer-events: none;
 }
@@ -106,7 +107,7 @@ Research
 
 /* 1. 标题：不再是链接，颜色深灰，字号适中 */
 .paper-title {
-  font-size: 18px; /* 从很大的20+px降到18px，精致感来源 */
+  font-size: 14px !important; /* 从很大的20+px降到18px，精致感来源 */
   font-weight: bold; /* 粗体 */
   color: #444;      /* 不是纯黑，是深灰 */
   line-height: 1.4;
@@ -115,7 +116,7 @@ Research
 
 /* 2. 作者：字号更小，颜色稍微浅一点 */
 .paper-authors {
-  font-size: 16px !important;  /* 正文字号 */
+  font-size: 12px !important;  /* 正文字号 */
   color: #555;      /* 中灰 */
   line-height: 1.5;
   margin-bottom: 6px;
@@ -123,7 +124,7 @@ Research
 
 /* 3. 会议：斜体，字号最小 */
 .paper-venue {
-  font-size: 16px; 
+  font-size: 12px !important; 
   font-style: italic;
   color: #666;
   margin-bottom: 10px;
@@ -137,14 +138,14 @@ Research
 
 /* 4. 底部链接 */
 .paper-links {
-  font-size: 12px;
+  font-size: 10px;
   font-family: Georgia, "Bitstream Charter", "Times New Roman", serif;
 }
 .paper-links a {
   display: inline-block;
   text-decoration: none;
   color: #428bca; /* 链接蓝 */
-  margin-right: 12px;
+  margin-right: 10px;
   font-weight: bold;
 }
 .paper-links a:hover {

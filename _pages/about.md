@@ -156,9 +156,9 @@ Research
 /* === 新增：专门用于项目奖项列表的样式 === */
 .project-awards {
   font-family: "Times New Roman", serif; /* 保持学术字体 */
-  font-size: 14px;      /* 字号适中 */
+  font-size: 12px;      /* 字号适中 */
   color: #444;          /* 深灰色，比纯黑柔和 */
-  line-height: 1.6;     /* 行高拉大一点，防止多行拥挤 */
+  line-height: 1.3;     /* 行高拉大一点，防止多行拥挤 */
   margin-top: 8px;      /* 距离上面的 Leader 拉开一点距离 */
   margin-bottom: 10px;
 }
@@ -172,7 +172,7 @@ Research
 
 /* 单个奖项样式 */
 .project-awards li {
-  margin-bottom: 4px; /* 每个奖项之间留点空隙 */
+  margin-bottom: 3px; /* 每个奖项之间留点空隙 */
 }
   
 </style>

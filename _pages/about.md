@@ -9,6 +9,16 @@ redirect_from:
 Hello! My name is **Zheng Zhang**(张政), an undergraduate student in Foundations of Mathematical Science at [Dalian University of Technology](https://www.dlut.edu.cn/). My research interests include machine learning and its applications in computer vision, currently focusing on Continual Learning and Brain-Inspired AI. I have previously worked on image insertion & harmonization, image recognition, and AI for Science.
 
 
+Work Experience
+======
+
+**Research Intern (Research Internship)**  
+Institute of Automation, Chinese Academy of Sciences (CASIA)  
+*Research directions:* Brain-inspired LLMs; Dendritic Computing; Long-context Memory; Efficient Linear-Time Sequence Modeling.  
+*Time:* 2026.01 – Present
+
+
+
 Research
 ======
 

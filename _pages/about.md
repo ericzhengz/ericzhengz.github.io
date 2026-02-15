@@ -225,11 +225,11 @@ Research
     </div>
     
     <div class="paper-venue">
-      CVPR under review. 
+      Preprint. 
     </div>
     
     <div class="paper-links">
-      <a href="https://doi.org/10.13140/RG.2.2.35822.27205">[An Early Version]</a>
+      <a href="https://arxiv.org/abs/2602.00573">[Paper]</a>
       <!-- <a href="#">[Code]</a> -->
     </div>
   </div>
@@ -247,7 +247,7 @@ Research
   <div class="paper-box-text">
     <!-- 标题：现在是纯文本，移除了 <a href...> -->
     <div class="paper-title">
-      Learning at Behavioral Timescales: A Sparse Statistical Framework for Zero-Gradient Class-Incremental Learning
+      BTSP-CAM: A Brain-Inspired Geometric Memory for Class-Incremental Learning
     </div>
     
     <div class="paper-authors">
@@ -255,7 +255,7 @@ Research
     </div>
     
     <div class="paper-venue">
-      target submission ICML. 
+      ICML under review. 
     </div>
     
   </div>

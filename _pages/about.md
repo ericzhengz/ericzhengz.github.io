@@ -12,7 +12,7 @@ Hello! My name is **Zheng Zhang**(张政), an undergraduate student in Foundatio
 Work Experience
 ======
 
-**Research Intern (Research Internship)**  
+**Research Intern**  
 Institute of Automation, Chinese Academy of Sciences (CASIA)  
 *Research directions:* Brain-inspired LLMs; Dendritic Computing; Long-context Memory; Efficient Linear-Time Sequence Modeling.  
 *Time:* 2026.01 – Present

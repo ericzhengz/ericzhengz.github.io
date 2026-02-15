@@ -13,6 +13,7 @@ Work Experience
 ======
 
 **Research Intern** 
+
 Institute of Automation, CAS (CASIA) <span style="float:right">Jan. 2026 – Present</span><br>_**Research Focus:**_ Brain-inspired LLMs, Dendritic Computing, Long-context Memory, and Efficient Linear-Time Sequence Modeling.
 
 

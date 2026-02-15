@@ -12,14 +12,16 @@ Hello! My name is **Zheng Zhang**(张政), an undergraduate student in Foundatio
 Work Experience
 ======
 
-**Research Intern**  
-
-<div style="display:flex; justify-content:space-between; align-items:baseline; gap:12px; flex-wrap:wrap;">
-  <span>Institute of Automation, CAS (CASIA)</span>
-  <span style="white-space:nowrap; color:#666;">Jan. 2026 – Present</span>
+<div style="display:flex; justify-content:space-between; align-items:flex-end; gap:12px; flex-wrap:wrap;">
+  <div>
+    <strong>Research Intern</strong><br/>
+    Institute of Automation, CAS (CASIA)
+  </div>
+  <div style="white-space:nowrap; color:#666;">Jan. 2026 – Present</div>
 </div>
 
-**Research Focus:** Brain-inspired LLMs; Dendritic Computing; Long-context Memory; Linear-time Sequence Modeling.
+<strong>Research Focus:</strong> Brain-inspired LLMs; Dendritic Computing; Long-context Memory; Linear-time Sequence Modeling.
+
 
 
 

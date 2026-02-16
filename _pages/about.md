@@ -231,7 +231,7 @@ Research
     </div>
     
     <div class="paper-authors">
-      First Author
+      <strong>Zheng Zhang</strong>, Tao Hu, Xueheng Li, Yang Wang, Rui Li, Jie Zhang, Chengjun Xie
     </div>
     
     <div class="paper-venue">

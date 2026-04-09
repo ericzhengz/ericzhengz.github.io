@@ -189,6 +189,34 @@ Research
 
 
 <!-- 内容展示 Block -->
+
+
+<div class="paper-box">
+  
+  <div class="paper-box-image">
+    <img src="/images/themes/btsp_cam.png" alt="Paper Thumbnail">
+  </div>
+
+  <div class="paper-box-text">
+    <!-- 标题：现在是纯文本，移除了 <a href...> -->
+    <div class="paper-title">
+      BTSP-CAM: A Brain-Inspired Geometric Memory for Class-Incremental Learning
+    </div>
+    
+    <div class="paper-authors">
+      First Author
+    </div>
+    
+    <div class="paper-venue">
+      ICML under review. 
+    </div>
+    
+  </div>
+  
+</div>
+
+
+
 <div class="paper-box">
   
   <div class="paper-box-image">
@@ -247,30 +275,6 @@ Research
 </div>
 
 
-
-<div class="paper-box">
-  
-  <div class="paper-box-image">
-    <img src="/images/themes/simpleBTSP.png" alt="Paper Thumbnail">
-  </div>
-
-  <div class="paper-box-text">
-    <!-- 标题：现在是纯文本，移除了 <a href...> -->
-    <div class="paper-title">
-      BTSP-CAM: A Brain-Inspired Geometric Memory for Class-Incremental Learning
-    </div>
-    
-    <div class="paper-authors">
-      First Author
-    </div>
-    
-    <div class="paper-venue">
-      ICML under review. 
-    </div>
-    
-  </div>
-  
-</div>
 
 Projects
 ======

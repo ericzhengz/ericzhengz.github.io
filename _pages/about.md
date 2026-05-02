@@ -194,6 +194,7 @@ Research
 <div class="paper-box">
   
   <div class="paper-box-image">
+    <div class="paper-badge">ICML</div>
     <img src="/images/themes/btsp_cam.png" alt="Paper Thumbnail">
   </div>
 
@@ -204,13 +205,15 @@ Research
     </div>
     
     <div class="paper-authors">
-      First Author
+      <strong>Zheng Zhang</strong>, Long Chen, Jiaye Yang, Qingjie Guo, Jiangrong Shen, Qi Xu
     </div>
     
     <div class="paper-venue">
-      ICML under review. 
+      International Conference on Machine Learning. <span class="venue-bold">ICML 2026</span>
     </div>
     
+    <div class="paper-links">
+    </div>
   </div>
   
 </div>

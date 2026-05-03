@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Hello! My name is **Zheng Zhang**(张政), an undergraduate student majoring in Foundations of Mathematical Science at [Dalian University of Technology](https://www.dlut.edu.cn/). My research interests include machine learning and its applications in computer vision, with a current focus on Continual Learning and Brain Inspired Computing. I have previously worked on image harmonization, image recognition, and AI for Science.
+Hello! My name is **Zheng Zhang**(张政), an undergraduate student majoring in Foundations of Mathematical Science at [Dalian University of Technology](https://en.dlut.edu.cn/). My research interests include machine learning and its applications in computer vision, with a current focus on Continual Learning and Brain Inspired Computing. I have previously worked on image harmonization, image recognition, and AI for Science.
 
 
 # 📖 Experience

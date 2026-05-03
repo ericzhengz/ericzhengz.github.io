@@ -14,7 +14,7 @@ Hello! My name is **Zheng Zhang**(张政), an undergraduate student majoring in 
 <ul class="exp-list">
   <li>
     <span class="exp-date">2026.02-Now</span>,
-    <span class="exp-role">Research Intern</span>,
+    Research Intern,
     Institute of Automation, Chinese Academy of Sciences (CASIA)
   </li>
 </ul>

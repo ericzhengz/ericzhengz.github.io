@@ -48,7 +48,7 @@ Hello! My name is **Zheng Zhang**(张政), an undergraduate student majoring in 
 <div class="paper-box">
   <div class="paper-box-image">
     <span class="paper-badge">AAAI</span>
-    <img src="/images/themes/sinbasis.png" alt="SinBasis thumbnail">
+    <img src="/images/themes/Pworkflow.png" alt="SinBasis thumbnail">
   </div>
 
   <div class="paper-box-text">
@@ -72,7 +72,7 @@ Hello! My name is **Zheng Zhang**(张政), an undergraduate student majoring in 
 
 <div class="paper-box">
   <div class="paper-box-image">
-    <img src="/images/themes/stage_cil.png" alt="Stage-CIL thumbnail">
+    <img src="/images/themes/STAGE.png" alt="Stage-CIL thumbnail">
   </div>
 
   <div class="paper-box-text">

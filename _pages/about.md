@@ -147,7 +147,7 @@ Hello! My name is **Zheng Zhang**(张政), an undergraduate student majoring in 
 
 <div class="paper-box">
   <div class="paper-box-image">
-    <img src="/images/themes/titration.png" alt="Intelligent Chemical Titration thumbnail">
+    <img src="/images/themes/chem.png" alt="Intelligent Chemical Titration thumbnail">
   </div>
 
   <div class="paper-box-text">
